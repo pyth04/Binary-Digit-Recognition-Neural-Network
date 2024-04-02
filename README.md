@@ -4,7 +4,7 @@
 
 
 <div align="center">
-    <img src="/images/mnist-examples.png" width="600" alt="MNIST examples"/>
+    <img src="/images/mnist-examples.png" width="500" alt="MNIST examples"/>
 </div>
 
 ## Table of Contents
@@ -26,7 +26,9 @@
 
 This project focuses on the application of neural networks to classify handwritten digits into binary categories, specifically digits 0 and 1. It is based on principles and methodologies taught in the Machine Learning Specialization by Andrew Ng, made available through DeepLearning.AI and Stanford Online. The goal is to demonstrate the foundational use of neural networks in machine learning through a practical, hands-on approach.
 
-![alt text](images/tf_keras.jpg)
+<div align="center">
+    <img src="images/tf_keras.jpg" width="400" alt="MNIST examples"/>
+</div>
 
 Employing the `TensorFlow` and `Keras libraries`, the project outlines the steps for building, training, and evaluating a neural network model capable of distinguishing between two classes of handwritten digits. This task serves as an entry point into the broader realm of machine learning and computer vision, illustrating key concepts such as data preprocessing, model architecture design, and the significance of hyperparameter tuning in improving model performance.
 
@@ -62,7 +64,10 @@ This project serves as a bridge between theoretical knowledge and practical appl
 
 The project begins with the setup of the programming environment required for running the neural network model. Libraries such as `NumPy` for numerical computations, `Matplotlib` for visualizations, and, importantly, `TensorFlow` and its high-level API `Keras` are imported. These tools are central to building and training the model. To ensure reproducibility, random seeds for `NumPy` and `TensorFlow` are set, adhering to best practices in scientific experiments where consistent results are essential.
 
-![alt text](/images/part_1.png)
+<div align="center">
+    <img src="/images/part_1.png" width="500" alt="MNIST examples"/>
+</div>
+
 
 #### 2.2. Loading and Preparing the Dataset
 
@@ -70,7 +75,9 @@ The MNIST dataset, filtered to include only the digits 0 and 1, is utilized for 
 
 The dataset undergoes several preprocessing steps, including normalization of pixel values to the [0, 1] range for improved training efficiency and reshaping of images from 2D arrays into flattened 1D vectors for input into the neural network.
 
-![alt text](/images/part_2.png)
+<div align="center">
+    <img src="/images/part_2.png" width="500" alt="MNIST examples"/>
+</div>
 
 ---
 
@@ -78,10 +85,14 @@ The dataset undergoes several preprocessing steps, including normalization of pi
 
 Before training begins, a subset of the data is visualized to comprehend the variability in handwriting styles that the model aims to classify. This step confirms the quality of the data preparation and provides intuitive insight into the classification challenge.
 
-![alt text](/images/part_3.png)
+<div align="center">
+    <img src="/images/part_3.png" width="500" alt="MNIST examples"/>
+</div>
 
-![alt text](/images/data_set.png)
-
+---
+<div align="center">
+    <img src="/images/data_set.png" width="500" alt="MNIST examples"/>
+</div>
 ---
 
 ### 4. Model Architecture Design
@@ -104,7 +115,9 @@ The foundation of the project is built on a neural network designed for binary c
 - **Functionality:** Outputs a probability score indicating the likelihood the input image represents the digit 1.
 - **Details:** Features a single neuron with a `sigmoid` activation function, ideal for binary classification tasks.
 
-![alt text](/images/part_4.png)
+<div align="center">
+    <img src="/images/part_4.png" width="500" alt="MNIST examples"/>
+</div>
 
 #### 4.1. Model Architecture Summary
 Upon executing `model.summary()`, the model displays:
@@ -158,7 +171,9 @@ Although a separate test dataset is not explicitly used, the validation split pr
 
 Visualization of the training process through accuracy and loss plots over epochs aids in identifying potential issues such as overfitting or underfitting.
 
-![alt text](images/training_history.png)
+<div align="center">
+    <img src="training_history.png" width="500" alt="MNIST examples"/>
+</div>
 
 The training process reached 100% accuracy on the training set quickly and maintained high validation accuracy at 99.5% across 20 epochs. The validation loss, despite minor fluctuations, remained low, indicating a well-fitting model. There is a slight divergence between training and validation loss, suggesting the possibility of overfitting, but the consistently high validation accuracy demonstrates the model's robustness.
 
@@ -168,7 +183,10 @@ The training process reached 100% accuracy on the training set quickly and maint
 
 The project concludes with a visual comparison of the model's predictions against true labels for a sample of the dataset. This visualization serves as a qualitative assessment of the model's performance and highlights the challenges and successes in distinguishing between the digits 0 and 1 based on handwriting styles.
 
-![alt text](/images/part_5.png)
+<div align="center">
+    <img src="/images/part_5.png" width="500" alt="MNIST examples"/>
+</div>
+
 
 
 ### 8. Conclusion
