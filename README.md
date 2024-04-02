@@ -156,7 +156,7 @@ Although a separate test dataset is not explicitly used, the validation split pr
 
 Visualization of the training process through accuracy and loss plots over epochs aids in identifying potential issues such as overfitting or underfitting.
 
-![alt text](images\training_history.png)
+![alt text](images/training_history.png)
 
 The training process reached 100% accuracy on the training set quickly and maintained high validation accuracy at 99.5% across 20 epochs. The validation loss, despite minor fluctuations, remained low, indicating a well-fitting model. There is a slight divergence between training and validation loss, suggesting the possibility of overfitting, but the consistently high validation accuracy demonstrates the model's robustness.
 
