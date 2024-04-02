@@ -89,10 +89,11 @@ Before training begins, a subset of the data is visualized to comprehend the var
     <img src="/images/part_3.png" width="500" alt="MNIST examples"/>
 </div>
 
----
+
 <div align="center">
     <img src="/images/data_set.png" width="500" alt="MNIST examples"/>
 </div>
+
 ---
 
 ### 4. Model Architecture Design
