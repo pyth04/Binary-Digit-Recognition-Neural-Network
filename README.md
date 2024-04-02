@@ -1,7 +1,5 @@
 # Neural Network-Based Binary Classification of Handwritten Digits
 
----
-
 ![Badge](https://img.shields.io/badge/status-In_Progress-ffec00) ![Badge](https://img.shields.io/badge/project-Neural_Network-color)
 
 
