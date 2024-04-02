@@ -3,7 +3,8 @@
 ![Badge](https://img.shields.io/badge/status-In_Progress-ffec00) ![Badge](https://img.shields.io/badge/project-Neural_Network-color)
 
 
-![alt text](/images/mnist-examples.png)
+<img src="/images/mnist-examples.png" width="600"/>
+
 
 ## Table of Contents
 
