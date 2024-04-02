@@ -1,12 +1,9 @@
 # Neural Network-Based Binary Classification of Handwritten Digits
 
-
-
-![Badge](https://img.shields.io/badge/status-In_Progress-ffec00) ![Badge](https://img.shields.io/badge/project-Neural_Network-5cb85c)
-
-[![My Skills](https://skillicons.dev/icons?i=py,tensorflow,vscode)](https://skillicons.dev)
-
 ---
+
+![Badge](https://img.shields.io/badge/status-In_Progress-ffec00) ![Badge](https://img.shields.io/badge/project-Neural_Network-color)
+
 
 ![alt text](/images/mnist-examples.png)
 
@@ -23,7 +20,7 @@
 - [5. Model Compilation and Training](#5-model-compilation-and-training)
 - [6. Model Evaluation and Iteration](#6-model-evaluation-and-iteration)
 - [7. Visualizing Predictions](#7-visualizing-predictions)
-
+- [8. Conclusion](#8-conclusion)
 
 ### 1. Introduction
 
@@ -172,3 +169,10 @@ The training process reached 100% accuracy on the training set quickly and maint
 The project concludes with a visual comparison of the model's predictions against true labels for a sample of the dataset. This visualization serves as a qualitative assessment of the model's performance and highlights the challenges and successes in distinguishing between the digits 0 and 1 based on handwriting styles.
 
 ![alt text](/images/part_5.png)
+
+
+### 8. Conclusion
+
+This project established a basis for using neural networks for binary classification of handwritten digits, utilizing TensorFlow and Keras to demonstrate high accuracy and effective model training. Despite potential overfitting, consistent validation performance suggests a solid understanding of the task. As we move from 'In Progress' to 'Complete,' we emphasize the ongoing nature of learning, with this work laying the groundwork for future advancements in more complex models and broader datasets. The documentation aims to support further self-study and adaptation to evolving machine learning practices, highlighting the importance of feedback integration and methodological expansion.
+
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/konstantinosjr)
