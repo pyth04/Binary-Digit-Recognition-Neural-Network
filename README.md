@@ -171,6 +171,6 @@ The project concludes with a visual comparison of the model's predictions agains
 
 ### 8. Conclusion
 
-This project established a basis for using neural networks for binary classification of handwritten digits, utilizing TensorFlow and Keras to demonstrate high accuracy and effective model training. Despite potential overfitting, consistent validation performance suggests a solid understanding of the task. As we move from 'In Progress' to 'Complete,' we emphasize the ongoing nature of learning, with this work laying the groundwork for future advancements in more complex models and broader datasets. The documentation aims to support further self-study and adaptation to evolving machine learning practices, highlighting the importance of feedback integration and methodological expansion.
+This project established a basis for using neural networks for binary classification of handwritten digits, utilizing TensorFlow and Keras to demonstrate high accuracy and effective model training. Despite potential overfitting, consistent validation performance suggests a solid understanding of the task. The documentation aims to support further self-study and adaptation to evolving machine learning practices, highlighting the importance of feedback integration and methodological expansion.
 
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/konstantinosjr)
